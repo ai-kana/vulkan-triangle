@@ -2,14 +2,12 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <limits.h>
-#include <vulkan/vulkan_core.h>
+#include <string.h>
 
 #define GLFW_INCLUDE_VULKAN
 #include <GLFW/glfw3.h>
 
 #include <stdio.h>
-
-#include "linmath.h"
 
 #define WINDOW_HEIGHT   512
 #define WINDOW_WIDTH    512
